@@ -1,0 +1,104 @@
+.homepage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:50vw;
+    height:30vw;
+    border-radius:20px;
+    box-shadow:0 0 15px 5px grey;
+    background: white;
+    position:center;
+    margin: 80px auto;
+}
+.App {
+    text-align: center;
+    background-color: #ecf0f3;
+    }
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: black;
+    padding: 5px;
+    }
+    
+    
+    .btn{
+    color: white;
+    background-color: #03A9F4;;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+
+    body{
+        font-family: "comic sans ms", sans serif;
+        background: #ecf0f3;
+        margin: 0;
+        
+    }
+    
+    h2{
+        background-color: forestgreen;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    td{
+        padding: 7px;
+    }
+    input{
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        
+    }
+    
+    input:focus{
+        outline: none;
+        border: 1px solid forestgreen;
+    }
+    input:hover{
+        box-shadow: 5px 5px 5px black;
+    }
+    
+    .button{
+        background-color: forestgreen;
+        color:#fff;
+        border: none;
+        padding: 7px
+    }
+    
+    .button:hover {
+        cursor: pointer;
+        box-shadow: 5px 5px 5px red;
+    }
+    .btn-secondary{
+        width:106px;
+    }
