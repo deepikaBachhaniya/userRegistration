@@ -1,0 +1,3 @@
+clear
+vi
+exit
